@@ -1,0 +1,120 @@
+#awp-interp-button {
+  position: fixed;
+  top: 46px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+#awp-interp-button:hover {
+  background-color: #256428;
+}
+
+#awp-interp-panel {
+  position: fixed;
+  top: 88px;
+  right: 20px;
+  z-index: 1000;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  padding: 14px 16px 16px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.awp-interp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #2e7d32;
+  margin-bottom: 6px;
+}
+
+#awp-interp-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: #666;
+}
+
+.awp-interp-instructions {
+  font-size: 12px;
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.awp-interp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.awp-interp-col-label {
+  font-weight: 600;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+}
+
+.awp-interp-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.awp-interp-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+#awp-interp-calc {
+  flex: 1;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#awp-interp-calc:hover {
+  background-color: #256428;
+}
+
+#awp-interp-clear {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.awp-interp-error {
+  font-size: 12px;
+  color: #b00020;
+  min-height: 14px;
+}

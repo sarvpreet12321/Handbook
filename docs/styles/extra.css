@@ -1,0 +1,6 @@
+:root {
+  --md-primary-fg-color:        #349138;   /* brand green */
+  --md-primary-fg-color--light: #5ed560;   /* lighter green */
+  --md-primary-fg-color--dark:  #2d8d2f;   /* darker green */
+  --md-accent-fg-color:         #38b43c;   /* accents (links, buttons) */
+}
