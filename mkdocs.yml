@@ -48,7 +48,7 @@ nav:
     - standards/floorareaperoccupant.md
     - standards/exhaustairrequirements.md
     - standards/pyschometricchart.md
-    - standards/ductulator.md
+    - standards/duct_calculator.md
   - Water Design:
     - Pump Curves:
       - standards/pump_curves_understanding.md
